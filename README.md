@@ -1,9 +1,9 @@
-🖼️ Image Slider Project
+🖼️ Image Slider :
 
 A stylish and fully responsive Image Slider built using HTML, Tailwind CSS, and JavaScript.
 It allows users to navigate through images with smooth transitions using Next and Previous buttons.
 
-🚀 Features
+🚀 Features :
 
 ▶️ Slide through multiple images using left and right arrow buttons
 
@@ -15,7 +15,7 @@ It allows users to navigate through images with smooth transitions using Next an
 
 ⚡ Lightweight and fast — no external libraries (except Tailwind & FontAwesome)
 
-🛠️ Technologies Used
+🛠️ Technologies Used :
 
 .HTML5
 
@@ -39,3 +39,6 @@ Responsive UI design using Tailwind CSS
 Default image is displayed on load 
 Clicking the left arrow (◀️) shows the previous image
 Clicking the right arrow (▶️) shows the next image.
+
+🚀 Live Demo :
+🔗 https://asadlakho.github.io/imageslider/
