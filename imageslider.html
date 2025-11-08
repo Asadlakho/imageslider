@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Image Slider - Asad Ali</title>
+
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <!-- Font Awesome -->
+    <script
+      src="https://kit.fontawesome.com/b2b731f521.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+
+  <body class="bg-gray-900 overflow-hidden">
+    <div class="relative w-screen h-screen overflow-hidden">
+      <!-- Main Image -->
+      <img
+        id="pic"
+        src="images/1.jpg"
+        alt="Slider Image"
+        class="w-full h-full object-cover select-none"
+      />
+
+      <div
+        class="absolute inset-0 flex items-center justify-center bg-black/40"
+      >
+        <h1
+          class="text-2xl md:text-5xl font-extrabold text-yellow-400 drop-shadow-2xl text-center"
+        >
+          Hello Welcome <br />here!
+          <i class="fa-solid fa-face-laugh-wink fa-lg"
+            style="color: #FFD43B"
+          ></i>
+          <span style="color: aqua"> <br />Image Slider | Mini Project<i class="fa-solid fa-heart" style="color: #e0321f"></i> </span>
+        </h1>
+      </div>
+
+      <!-- Left Button -->
+      <button
+        onclick="change(-1)"
+        class="absolute left-6 top-1/2 -translate-y-1/2 bg-white/20 backdrop-blur-md border border-white/30 hover:bg-gradient-to-r hover:from-yellow-400 hover:to-orange-500 text-white text-3xl px-5 py-4 rounded-full shadow-lg hover:shadow-yellow-300/40 active:scale-95"
+      >
+        <i class="fas fa-arrow-left"></i>
+      </button>
+
+      <!-- Right Button -->
+      <button
+        onclick="change(1)"
+        class="absolute right-6 top-1/2 -translate-y-1/2 bg-white/20 backdrop-blur-md border border-white/30 hover:bg-gradient-to-r hover:from-yellow-400 hover:to-orange-500 text-white text-3xl px-5 py-4 rounded-full shadow-lg hover:shadow-yellow-300/40 active:scale-95"
+      >
+        <i class="fas fa-arrow-right"></i>
+      </button>
+    </div>
+
+  </body>
+  <script src="imageslider.js"></script>
+</html>
